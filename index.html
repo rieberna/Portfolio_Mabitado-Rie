@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="view-transition" content="same-origin">
+    <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
+    <title>Rie Mabitado</title>
+</head>
+<body>  
+   
+    <!-- Loader -->
+    <div id="loader" class="loader" style="position: fixed; top: 0; left: 0; width: 100%; height: 100vh; background: #000; display: flex; justify-content: center; align-items: center; z-index: 9999;">
+        <div class="loader-content" style="text-align: center; color: white;">
+            <div class="loader-text" style="display: flex; flex-direction: column; gap: 10px;">
+                <strong style="font-size: 48px; font-weight: 700; font-family: 'Unica One', cursive;">Rie Mabitado</strong>
+                <span style="font-size: 24px; font-family: 'Crimson Text', serif;">Portfolio</span>
+            </div>
+        </div>
+    </div>
+       
+    <main> 
+        <div class="video-background">
+            <video width="100%" height="100%" autoplay muted loop id="myVideo">
+                <source src="/images/galaxy.mp4" type="video/mp4">
+            </video>
+       
+        <div class="overlay-content">
+            <header>
+                <div class="title-section">
+                    <div class="title">Rie Mabitado</div>
+                    <div class="label">UI/UX Designer & Front-End Developer</div>
+                </div>
+
+                <nav class="navbar">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+            </header>    
+
+                <section class="page"  id="home">
+                    <p>
+                        <span>“Rie Mabitado is a BS</span> 
+                        <span>Information Technology</span> 
+                        <span>student at Polytechnic</span> 
+                        <span>University of the Philippines</span> 
+                        <span>– San Juan, aspiring Front-End</span>
+                        <span>Developer with a strong interest</span>
+                        <span>in UI/UX design. She enjoys</span>
+                        <span>creating clean, responsive,</span>
+                        <span>and user-centered interfaces</span>
+                        <span>that balance visual appeal</span>
+                        <span>with functionality. Rie work</span>
+                        <span>with technologies such as HTML,</span>
+                        <span>CSS, JavaScript, and React,</span>
+                        <span>and she’s comfortable translating</span>
+                        <span>designs into interactive components.”</span>
+                    </p>    
+                </section>
+
+                <section class="page" id="about">
+                    <div class="education" id="education">
+                        <span>Education</span>
+                        <ul>
+                            <li><em>BS Information Technology </em> <br>Polytechnic University of the Philippines - San Juan <br>2022 - Present</li><br>
+                            <li><em>Science, Technology, Engineering, and Mathematics (STEM)</em> <br>Senior High School <br>Arellano University <br>2020 - 2022</li>
+                        </ul>
+                    </div>
+                    <div class="personal" id="personal">
+                      <span>Personal Skills</span>
+                      <ul>
+                        <li>Time Management</li>
+                        <li>Problem Solving</li>
+                        <li>Adaptability</li>
+                        <li>Communication Skills</li>
+                        <li>Team Collaboration</li>
+                        <li>Active Listening</li>
+                      </ul>
+                    </div>
+
+                    <div class="technical" id="technical">
+                      <span>Technical Skills</span>  
+                      <ul>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>React</li>
+                        <li>Figma</li>
+                        <li>Microsoft Office</li>
+                      </ul>
+                    </div>
+                </section>
+
+                <section class="page" data-page="projects" id="projects">
+                    <div class="projects-list">
+                        <div class="project-item" data-project="klynx">
+                            <h2 class="project-title">KLynx+</h2>
+                            <span class="project-subtitle">Frontend Developer / 2026</span>
+                        </div>
+                        <div class="project-item" data-project="atomica">
+                            <h2 class="project-title">atomica</h2>
+                            <span class="project-subtitle">Frontend Developer / 2025</span>
+                        </div>
+                    </div>
+
+                    <!-- Project Detail Views -->
+                    <div class="project-detail" id="klynx-detail">
+                        <button class="close-detail">
+                            <span class="back-arrow">←</span>
+                            <span class="back-text">Back</span>
+                        </button>
+                        <div class="detail-content">
+                            <h2 class="detail-title">KLynx+</h2>
+                         
+                            <div class="detail-description">
+                                <p>Modernizing barangay medical records through intuitive 
+                                web and mobile platforms for improved data management and patient care.
+                                </p>
+                                <h3>Key Features:</h3>
+                                <ul>
+                                    <li>Responsive and User-centered Interface</li>
+                                    <li>Allows patients to schedule
+                                         appointments with healthcare providers.
+                                    </li>
+                                    <li>a secure cloud based storage solution for centralized and efficient 
+                                     record keeping.
+                                    </li>
+                                    <li>Generating reports to support health data analysis
+                                         and operational insights.
+                                    </li>
+                                    <li>Monitoring disease distribution within the community for health assessment 
+                                        distribution within the community for health assessment 
+                                        and intervention planning.
+                                    </li>
+                                </ul>
+                                <h3>Technologies Used:</h3>
+                                <p>React, JavaScript, HTML5, CSS3, Figma, MySql, PHP</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-detail" id="atomica-detail">
+                        <button class="close-detail">
+                            <span class="back-arrow">←</span>
+                            <span class="back-text">Back</span>
+                        </button>
+                        <div class="detail-content">
+                            <h2 class="detail-title">atomica</h2>
+    
+                            <div class="detail-description">
+                                <p>A modern, interactive chemistry learning platform that makes mastering
+                                 chemistry concepts engaging and accessible through gamified learning 
+                                 experiences.</p>
+                                <h3>Key Features:</h3>
+                                <ul>
+                                    <li>Smart Flashcards: Interactive cards with chemistry concepts</li>
+                                    <li>Discussion Forum: Ask questions and get answers from the community</li>
+                                    <li>Study Time Tracking: Monitor daily and total study hours</li>
+                                    <li>Custom Profiles: Personalize with avatars and academic information</li>
+                                    <li>Responsive Design: Works seamlessly on desktop and mobile</li>
+                                </ul>
+                                <h3>Technologies Used:</h3>
+                                <p>HTML5, CSS3, TypeScript, React, Vite, Firebase</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                </section>
+
+                <section class="page" id="contact">
+                        <ul>
+                            <li><a href="https://github.com/riraaay" target="_blank" rel="noopener noreferrer">Github&#8599;</a></li>
+                            <li><a href="https://www.linkedin.com/in/rie-berna-mabitado-446275341" target="_blank" rel="noopener noreferrer">LinkedIn&#8599;</a></li>
+                            <li><a href="mailto:rieberna.23@gmail.com" target="_blank" rel="noopener noreferrer">Email&#8599;</a></li>
+                        </ul>
+                </section>
+
+
+            </div>
+         </div>
+    </main>
+          
+   
+</body>  
+            <footer>
+                <p>&copy; 2026 Rie Mabitado.</p>
+            </footer>
+</html>
+
+<script src="js/main.js"></script>
