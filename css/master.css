@@ -112,6 +112,12 @@ body {
     z-index: 2; /* Ensure these sections are above the video */ 
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
 header {
     display: flex;
     justify-content: space-between;
